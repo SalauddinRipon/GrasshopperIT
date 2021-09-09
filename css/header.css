@@ -58,6 +58,8 @@
 .main-header .header-upper .upper-right{
 	position:relative;
 	padding-top:22px;
+	margin-left: 400px;
+
 }
 
 .main-header .header-upper .auto-container{
@@ -69,6 +71,8 @@
 	position:static;
 	float:left;
 	padding-left:50px;
+	padding-left: 450px;
+	padding-top: 15px;
 }
 
 .main-header .header-upper .logo-box{
@@ -78,6 +82,9 @@
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
+	padding-left: 60px;
+	padding-bottom: 20px;
+	
 }
 
 .main-header .outer-box{
