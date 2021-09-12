@@ -71,7 +71,7 @@
 	position:static;
 	float:left;
 	padding-left:50px;
-	padding-left: 450px;
+	padding-left: 600px;
 	padding-top: 15px;
 }
 
@@ -854,13 +854,13 @@
 }
 
 .mobile-menu .nav-logo{
-	position:relative;
+	position:fixed;
 	padding:20px 20px;
 	text-align:left;	
 }
 
 .mobile-menu .nav-logo img{
-	max-width:200px;
+	max-width:100px;
 }
 
 .mobile-menu-visible{
