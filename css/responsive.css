@@ -1969,3 +1969,9 @@
 	}
 	
 }
+
+@media only screen and (max-width: 478px) {
+	.main-header .nav-outer{
+		padding-top: 22px;
+	}
+}
