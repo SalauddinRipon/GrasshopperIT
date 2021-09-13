@@ -1263,7 +1263,10 @@
 		font-size:26px;
 		line-height:1.4em;
 	}
-	
+	.mobile-menu{
+		position: fixed; 
+		width: 100%;
+	}
 	.page-title-section h2{
 		font-size:26px;
 		line-height:1.3em;

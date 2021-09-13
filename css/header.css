@@ -38,7 +38,7 @@
 	float:left;
 	left:0px;
 	z-index:10;
-	padding:30px 0px;
+	/* padding-top:222px; */
 }
 
 .main-header .main-box .logo-box .logo img{
@@ -71,12 +71,13 @@
 	position:static;
 	float:left;
 	padding-left:50px;
-	padding-left: 600px;
+	padding-left: 850px;
 	padding-top: 15px;
+
 }
 
 .main-header .header-upper .logo-box{
-	position: relative;
+	position: absolute;
 	padding:20px 0px;
 }
 
@@ -412,7 +413,7 @@
 
 .main-menu{
 	position:static;
-	float:left;
+	float:right;
 	padding:13px 0px;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -838,13 +839,15 @@
 	cursor: pointer;
 	color:#000000;
 	display: none;
+	margin-top: 150px;
+	text-align: right;
 }
 
 .mobile-menu{
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: 300px;
+	width: 200px;
 	padding-right:30px;
 	max-width:100%;
 	height: 100%;
@@ -855,12 +858,14 @@
 
 .mobile-menu .nav-logo{
 	position:fixed;
-	padding:20px 20px;
-	text-align:left;	
+	margin-bottom:240px;
+	text-align:left;
+	margin-left: 30px;	
 }
 
 .mobile-menu .nav-logo img{
-	max-width:100px;
+	max-width:0px;
+
 }
 
 .mobile-menu-visible{
@@ -907,7 +912,7 @@
 	max-height: 100%;
 	overflow-y: auto;
 	background: #ffffff;
-	padding: 0px 0px;
+	padding: 20px 0px;
 	z-index: 5;
 	opacity: 0;
 	visibility: hidden;
@@ -972,7 +977,11 @@
 	position: relative;
 	display: block;
 	border-bottom: 1px solid rgba(0,0,0,0.10);
+
 }
+/* .mobile-menu .navigation li.mobile-home{
+	margin-top: 20px;
+} */
 
 .mobile-menu .navigation li > ul > li:last-child{
 	border-bottom: none;
